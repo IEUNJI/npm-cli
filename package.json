@@ -1,0 +1,34 @@
+{
+  "name": "@linzijun/cli",
+  "version": "1.0.0",
+  "description": "Download GitHub Repositories of Lin Zijun!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "linzijun-cli": "bin/linzijun-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEUNJI/npm-cli.git"
+  },
+  "keywords": [
+    "ieunji",
+    "linzijun",
+    "cli"
+  ],
+  "author": "ieunji <2690055722@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IEUNJI/npm-cli/issues"
+  },
+  "homepage": "https://github.com/IEUNJI/npm-cli#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4"
+  }
+}
