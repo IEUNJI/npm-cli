@@ -1,6 +1,6 @@
 {
   "name": "@linzijun/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download GitHub Repositories of Lin Zijun!",
   "main": "index.js",
   "scripts": {
